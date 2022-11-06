@@ -48,7 +48,7 @@ const App = () => {
     <>
       <Container>
         <h1>Phonebook</h1>
-        <ContactForm onSumbit={addContact} />
+        <ContactForm onSubmit={addContact} />
         <h2>Contacts</h2>
         <Filter value={filter} onChange={changeFilter} />
         {contacts.length === 0 ?
